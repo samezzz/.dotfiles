@@ -15,6 +15,7 @@ return {
   'xiyaowong/transparent.nvim',
   'kaicataldo/material.vim',
   'github/copilot.vim',
+  'ThePrimeagen/vim-be-good',
   {
     'stevearc/dressing.nvim',
     event = 'VeryLazy',

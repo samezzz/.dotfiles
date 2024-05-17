@@ -598,7 +598,12 @@ require('lazy').setup({
         cpptools = {},
         java_language_server = {},
         jdtls = {},
-        clangd = {},
+        clangd = {
+          cmd = {
+            'clangd',
+            '--offset-encoding=utf-16',
+          },
+        },
         black = {},
         lua_ls = {
           -- cmd = {...},
